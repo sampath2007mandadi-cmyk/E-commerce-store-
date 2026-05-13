@@ -1,0 +1,11 @@
+{
+  "name": "location-aware-ecommerce-store",
+  "version": "1.0.0",
+  "description": "Responsive e-commerce storefront with cart, checkout, location restrictions, and a Gmail-based admin portal.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "build": "rm -rf dist && mkdir -p dist/src && cp index.html README.md LICENSE dist/ && cp src/app.js src/styles.css dist/src/"
+  }
+}
